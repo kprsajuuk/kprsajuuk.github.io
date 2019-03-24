@@ -45,6 +45,7 @@ jQuery(document).ready(function(){
 		} else if ( $(this).parent('li').prev('li').prev('li').prev('li').is('.current')  && (mq == 'desktop') ) {
 			nextSides(projectsSlider);
 		} else {
+			$('#' + $(this).attr('name') + '-content').show()
 			singleProjectContent.addClass('is-visible');
 		}
 	});
@@ -53,6 +54,7 @@ jQuery(document).ready(function(){
 	singleProjectContent.on('click', '.close', function(event){
 		event.preventDefault();
 		singleProjectContent.removeClass('is-visible');
+		$('.project-content').fadeOut()
 	});
 
 	//go to next/pre slide - clicking on the next/prev arrow

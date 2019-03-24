@@ -10,12 +10,12 @@
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
-	<title>Squeezebox Portfolio Template | CodyHouse</title>
+	<title>Personal Portfolio</title>
 </head>
 <body>
 	<div class="cd-intro-block">
 		<div class="content-wrapper">
-			<h1>Squeezebox Portfolio Template</h1>
+			<h1>Personal Portfolio</h1>
 			<a href="#0" class='cd-btn' data-action="show-projects">Show projects</a>
 		</div>
 	</div> <!-- .cd-intro-block -->
@@ -23,91 +23,41 @@
 	<div class="cd-projects-wrapper">
 		<ul class="cd-slider">
 			<li class="current">
-				<a href="#0">
+				<a href="#0" name="p1">
 					<img src="img/wujiang_bg.png" alt="project image">
 					<div class="project-info">
-						<h2>武将Project</h2>
-						<p>version 0.000006</p><!-- Version -->
+						<h2>Vue Project</h2>
+						<p>under heavy construction</p>
 					</div>
 				</a>
 			</li>
 
 			<li>
-				<a href="#0">
-					<img src="img/img.png" alt="project image">
+				<a href="#0" name="p2">
+					<img src="img/copd_bg.png" alt="project image">
 					<div class="project-info">
-						<h2>Project 2</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, dicta.</p>
+						<h2>Deep Learning</h2>
+						<p>Real-Time Health Assessment for COPD Patients</p>
 					</div>
 				</a>
 			</li>
 
 			<li>
-				<a href="#0">
-					<img src="img/img.png" alt="project image">
+				<a href="#0" name="p3">
+					<img src="img/sd_bg.png" alt="project image">
 					<div class="project-info">
-						<h2>Project 3</h2>
-						<p>Lorem ipsum dolor sit amet.</p>
+						<h2>AR Game</h2>
+						<p>Senior Design – Astral Raiders</p>
 					</div>
 				</a>
 			</li>
 
 			<li>
-				<a href="#0">
+				<a href="#0" name="p4">
 					<img src="img/img.png" alt="project image">
 					<div class="project-info">
-						<h2>Project 4</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-					</div>
-				</a>
-			</li>
-
-			<li>
-				<a href="#0">
-					<img src="img/img.png" alt="project image">
-					<div class="project-info">
-						<h2>Project 5</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-					</div>
-				</a>
-			</li>
-
-			<li>
-				<a href="#0">
-					<img src="img/img.png" alt="project image">
-					<div class="project-info">
-						<h2>Project 6</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat.</p>
-					</div>
-				</a>
-			</li>
-
-			<li>
-				<a href="#0">
-					<img src="img/img.png" alt="project image">
-					<div class="project-info">
-						<h2>Project 7</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					</div>
-				</a>
-			</li>
-			
-			<li>
-				<a href="#0">
-					<img src="img/img.png" alt="project image">
-					<div class="project-info">
-						<h2>Project 8</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-					</div>
-				</a>
-			</li>
-
-			<li>
-				<a href="#0">
-					<img src="img/img.png" alt="project image">
-					<div class="project-info">
-						<h2>Project 9</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+						<h2>Unreal Project</h2>
+						<p>Independent Game implemented with Unreal Engine</p>
 					</div>
 				</a>
 			</li>
@@ -120,12 +70,57 @@
 	</div> <!-- .cd-projects-wrapper -->
 
 	<div class="cd-project-content">
-		<div>
-			<h2>武将Project</h2>
-			<em>A turn-based battle arena system for two players</em>
+		<div id="p1-content" class="project-content">
+			<h2>Vue Project</h2>
 			<p>
-				Available at: <a href="http://wujiang.herokuapp.com" target="_blank" rel="noopener">link</a>
+				Available at: <a href="http://wujiang.herokuapp.com" target="_blank" rel="noopener">HERE</a>
 			</p>
+			<em>A turn-based Trading card game system for two players. DB now include up to 300 characters</em>
+			<em>The website use socket to connect players. A basic chat system is also included within the room</em>
+			<div class="clearfix">
+				<img src="img/wujiang_create.png" style="float:left; width:50%;" alt="project image">
+				<img src="img/wujiang_join.png" style="float:left; width:50%;" alt="project image">
+			</div>
+			<div>
+				<em>Players will use trading system to buy/sell card. detail attribute will pop up while a player click on each Character.</em>
+				<img src="img/wujiang_trade.png" width="100%" alt="project image">
+			</div>
+			<div>
+				<em>A basic "battle field" board is implemented in "battle" phase.</em>
+				<img src="img/wujiang_battle.png" alt="project image">
+			</div>
+			<br/>
+			<p>
+				Available at: <a href="http://wujiang.herokuapp.com" target="_blank" rel="noopener">HERE</a>
+			</p>
+		</div>
+
+		<div id="p2-content" class="project-content">
+			<h2>Real-Time Health Assessment for COPD Patients</h2>
+			<p>
+				Github ref: <a href="https://github.com/dddragons/time-data-viz-test" target="_blank" rel="noopener">HERE</a>
+			</p>
+			<em>National Science Foundation CVDI research project that digging into time series data and find out trends and periodic patterns</em>
+			<em>Visualize Time Series Data using python. The overall deep learning process is based on sklearn. The project is represented in Jupyter notebook. </em>
+		</div>
+
+		<div id="p3-content" class="project-content">
+			<h2>Senior Design – Astral Raiders</h2>
+			<em>Astral Raiders is an action tower defense game for the Microsoft Hololens. It is an Augmented Reality(AR) game which will bring unique game experience to the players.</em>
+			<em>A small spacecraft crashes into the player's room where the ship's captain tells the player he's being followed by space pirates. The player must collect different items from around the room and create defensive items to defend the ship from incoming space enemies. When enemies are killed, they may drop loot such as new objects for the player to collect.</em>
+			<div>
+				<img src="img/sd_homepage.png" width="100%" alt="project image">
+				<img src="img/sd_ingame.gif" width="100%" alt="project image">
+			</div>
+			<em>The game is developed with Unity.</em>
+			<p>
+				Latest code package: <span href="#0" target="_blank" rel="noopener">Not available at this time</span>
+			</p>
+		</div>
+
+		<div id="p4-content" class="project-content">
+			<h2>Unreal Project -- BH Trigger</h2>
+			<em>Waiting to be updated</em>
 		</div>
 		<a href="#0" class="close cd-img-replace">Close</a>
 	</div> <!-- .cd-project-content -->
