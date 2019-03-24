@@ -3,9 +3,12 @@ jQuery(document).ready(function(){
 		projectsContainer = $('.cd-projects-wrapper'),
 		projectsSlider = projectsContainer.children('.cd-slider'),
 		singleProjectContent = $('.cd-project-content'),
-		sliderNav = $('.cd-slider-navigation');
+		sliderNav = $('.cd-slider-navigation'),
+		localization = $('#localize');//initiate localization
+
 
 	var resizing = false;
+	var cn = false;
 	
 	//if on desktop - set a width for the projectsSlider element
 	setSliderContainer();
@@ -45,16 +48,29 @@ jQuery(document).ready(function(){
 		} else if ( $(this).parent('li').prev('li').prev('li').prev('li').is('.current')  && (mq == 'desktop') ) {
 			nextSides(projectsSlider);
 		} else {
-			$('#' + $(this).attr('name') + '-content').show()
+			$('#' + $(this).attr('name') + '-content').show().css('display','block');//custmized project content
 			singleProjectContent.addClass('is-visible');
 		}
+	});
+
+	//custmized function for localization
+	localization.on('click', function(event) {
+		if(cn) {
+			$('.en').show().css('display','block');
+			$('.cn').hide();
+		}else {
+			$('.cn').show().css('display','block');
+			$('.en').hide();
+		}
+		cn = !cn;
+		
 	});
 
 	//close single project content
 	singleProjectContent.on('click', '.close', function(event){
 		event.preventDefault();
 		singleProjectContent.removeClass('is-visible');
-		$('.project-content').fadeOut()
+		$('.project-content').fadeOut();//custmized for project switch
 	});
 
 	//go to next/pre slide - clicking on the next/prev arrow

@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #eebb00;
+  color: #F06800;
   text-decoration: none;
 }
 
@@ -733,7 +733,7 @@ Project content panel
 .cd-project-content em {
   display: block;
   font-size: 1.8rem;
-  font-style: italic;
+  /*font-style: italic;*/
   margin: 1em auto;
 }
 .cd-project-content p {
@@ -825,4 +825,29 @@ Keyframes
 
 .project-content {
     display: none;
+}
+
+.local-btn {
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  right: 20px;
+  padding: 10px;
+  background: #eebb00;
+  cursor: pointer;
+  color: #262f3b;
+  font-weight: bold;
+  -webkit-user-select: none;
+}
+
+.local-btn:hover {
+  box-shadow: 0 1px 10px rgba(238, 187, 0, 0.4);
+}
+
+.local-btn:active {
+  background: #C9A000;
+}
+
+.cn, em.cn {
+  display: none;
 }
