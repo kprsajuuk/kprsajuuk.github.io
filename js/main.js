@@ -20,6 +20,12 @@ jQuery(document).ready(function(){
 		}
 	});
 
+	intro.on('click', 'a[data-action="about-me"]', function(event) {
+		event.preventDefault();
+		$('#aboutMe').show().css('display','block');//custmized project content
+		singleProjectContent.addClass('is-visible');
+	});
+
 	//show the projects slider if user clicks the show-projects button
 	intro.on('click', 'a[data-action="show-projects"]', function(event) {
 		event.preventDefault();
