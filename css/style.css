@@ -852,3 +852,47 @@ Keyframes
 .cn, em.cn {
   display: none;
 }
+
+.introImg {
+  filter: brightness(50%);
+}
+em.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+span.bold {
+  font-weight: bold;
+}
+em.imgDes {
+  margin-bottom: 6px;
+}
+img.descImg {
+  margin-bottom: 20px;
+}
+
+.showContainer {
+  position: relative;
+}
+
+.showContainer .tag {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 3px 8px;
+  z-index: 1000;
+  border-radius: 4px;
+  opacity: .8;
+}
+
+.showContainer .tag.music{
+  color: #95de64 ;
+  border: 1px solid #95de64;
+}
+
+.showContainer .tag.eng {
+  color: #F06800 ;
+  border: 1px solid #F06800;
+}
+.project-content.aboutme .head {
+  color: #F06800;
+}
