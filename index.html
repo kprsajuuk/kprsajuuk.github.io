@@ -1,465 +1,1115 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,400italic' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<title>Yunhan Li — Software Engineer</title>
+<meta name="description" content="Yunhan Li, software engineer and Master of Software Engineering student at Carnegie Mellon University. Seven years building enterprise developer and security tooling; personal work across systems, music technology, and games.">
+<meta name="author" content="Yunhan Li">
+<link rel="canonical" href="https://kprsajuuk.github.io/">
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Personal Portfolio</title>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kprsajuuk.github.io/">
+<meta property="og:title" content="Yunhan Li — Software Engineer">
+<meta property="og:description" content="I turn complex technical capability into tools people can actually use — for developers, for security teams, and for musicians.">
+<meta property="og:image" content="https://kprsajuuk.github.io/img/p1-1/img1.jpg">
+<meta property="og:image:alt" content="Screenshot of Aeon Cymatic, a browser-based audio visualizer built by Yunhan Li.">
+<meta property="og:site_name" content="Yunhan Li">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Yunhan Li — Software Engineer">
+<meta name="twitter:description" content="I turn complex technical capability into tools people can actually use — for developers, for security teams, and for musicians.">
+<meta name="twitter:image" content="https://kprsajuuk.github.io/img/p1-1/img1.jpg">
+
+<meta name="theme-color" content="#0c0e12">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-	<div class="cd-intro-block">
-		<div class="content-wrapper">
-			<h1>YUNHAN LI's Portfolio</h1>
-			<a href="#0" class='cd-btn' data-action="show-projects">Show projects</a>
-			<div style="margin-top: 12px;">
-				<a href="#0" data-action="about-me" >About me</a>
-			</div>
-		</div>
-	</div> <!-- .cd-intro-block -->
 
-	<div class="cd-projects-wrapper">
-		<div class="local-btn" id="localize" unselectable="on">Language</div>
-		<ul class="cd-slider">
-			<li class="current">
-				<a href="#0" name="m1" class="showContainer">
-					<div class="tag music">Music</div>
-					<img class="introImg" src="img/m1/intro.jpg" alt="project image">
-					<div class="project-info">
-						<h2 class="local en">Beyond The Outpost</h2>
-						<h2 class="local cn">Beyond The Outpost</h2>
-						<p class="local en">Music Engineering Project</p>
-						<p class="local cn">Music Engineering Project</p>
-					</div>
-				</a>
-			</li>
+<a class="visually-hidden" href="#work">Skip to work</a>
 
-			<li>
-				<a href="#0" name="m2" class="showContainer">
-					<div class="tag music">Music</div>
-					<img class="introImg" src="img/m2/intro.jpg" alt="project image">
-					<div class="project-info">
-						<h2 class="local en">Journey to Citadel</h2>
-						<h2 class="local cn">Journey to Citadel</h2>
-						<p class="local en">Music Engineering Project</p>
-						<p class="local cn">Music Engineering Project</p>
-					</div>
-				</a>
-			</li>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">Yunhan&nbsp;Li</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a class="nav-sec" href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a class="ext nav-sec" href="https://github.com/kprsajuuk" target="_blank" rel="noopener">GitHub</a>
+      <a class="ext nav-sec" href="https://www.linkedin.com/in/yunhan-li-403259140" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="ext nav-sec" href="https://soundcloud.com/sajuuk-kpr" target="_blank" rel="noopener">SoundCloud</a>
+      <a class="nav-cta ext" href="resume/Yunhan-Li-Resume.pdf" target="_blank" rel="noopener">Résumé</a>
+    </nav>
+  </div>
+</header>
 
-			<li>
-				<a href="#0" name="m3" class="showContainer">
-					<div class="tag music">Music</div>
-					<img class="introImg" src="img/m3/intro.jpg" alt="project image">
-					<div class="project-info">
-						<h2 class="local en">Celestropolis</h2>
-						<h2 class="local cn">Celestropolis</h2>
-						<p class="local en">Music Engineering Project</p>
-						<p class="local cn">Music Engineering Project</p>
-					</div>
-				</a>
-			</li>
+<main id="top">
 
-			<li>
-				<a href="#0" name="p1-1" class="showContainer">
-					<div class="tag eng">Eng</div>
-					<img class="introImg" src="img/p1-1/intro.jpg" alt="project image">
-					<div class="project-info">
-						<h2 class="local en">Audio Visualizer</h2>
-						<h2 class="local cn">Audio Visualizer</h2>
-						<p class="local en">Canvas-Based Audio Visualizer with Custom Playback Controls</p>
-						<p class="local cn">Canvas-Based Audio Visualizer with Custom Playback Controls</p>
-					</div>
-				</a>
-			</li>
+  <!-- ================================================================ hero -->
+  <section class="hero">
+    <div class="wrap">
+      <p class="hero__eyebrow">Software Engineer · Pittsburgh, PA</p>
+      <h1>Yunhan Li</h1>
+      <p class="hero__lede">
+        I turn complex technical capability into tools people can
+        <em>actually use</em> — for developers, for security teams, and for musicians.
+      </p>
+      <p class="hero__meta">
+        Master of Software Engineering at Carnegie Mellon University's School of
+        Computer Science, 2026&ndash;2028. Before that, seven years building enterprise
+        developer and software security tooling in Beijing. Currently looking for a
+        <strong>Summer 2027 software engineering internship</strong>.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#work">See the work</a>
+        <a class="btn ext" href="resume/Yunhan-Li-Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+        <a class="btn" href="mailto:yunhanli@andrew.cmu.edu">yunhanli@andrew.cmu.edu</a>
+      </div>
+    </div>
+  </section>
 
-			<li>
-				<a href="#0" name="p1-2" class="showContainer">
-					<div class="tag eng">Eng</div>
-					<img class="introImg" src="img/p1-2/intro.jpg" alt="project image">
-					<div class="project-info">
-						<h2 class="local en">Drum Beat Generator</h2>
-						<h2 class="local cn">Drum Beat Generator</h2>
-						<p class="local en">A Configurable Drum Machine with Stochastic Beat Generation</p>
-						<p class="local cn">A Configurable Drum Machine with Stochastic Beat Generation</p>
-					</div>
-				</a>
-			</li>
+  <!-- ================================================================ work -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>Selected work</h2>
+        <p class="section__note">
+          One thread runs through all of it: take a capability that is hard to use
+          directly — an analysis engine, a screen, an audio buffer, a Markov model —
+          and put it behind controls somebody will actually reach for.
+          Click any card for the full write-up.
+        </p>
+      </div>
 
-			<li>
-				<a href="#0" name="p1-3" class="showContainer">
-					<div class="tag eng">Eng</div>
-					<img class="introImg" src="img/p1-3/intro.jpg" alt="project image">
-					<div class="project-info">
-						<h2 class="local en">MIDIbook</h2>
-						<h2 class="local cn">MIDIbook</h2>
-						<p class="local en">A digital sketchbook for music</p>
-						<p class="local cn">A digital sketchbook for music</p>
-					</div>
-				</a>
-			</li>
+      <div class="filters" id="work-filters" role="group" aria-label="Filter work by category">
+        <button type="button" class="chip" data-filter="all" aria-pressed="true">All<span class="chip__count">12</span></button>
+        <button type="button" class="chip" data-filter="software" aria-pressed="false">Software &amp; Systems<span class="chip__count">3</span></button>
+        <button type="button" class="chip" data-filter="musictech" aria-pressed="false">Music Technology<span class="chip__count">4</span></button>
+        <button type="button" class="chip" data-filter="games" aria-pressed="false">Games<span class="chip__count">2</span></button>
+        <button type="button" class="chip" data-filter="music" aria-pressed="false">Music<span class="chip__count">3</span></button>
+      </div>
 
-			<li>
-				<a href="#0" name="p2" class="showContainer">
-					<div class="tag eng">Eng</div>
-					<img class="introImg" src="img/p2/intro.jpg" alt="project image">
-					<div class="project-info">
-						<h2 class="local en">Markov Melody Generator</h2>
-						<h2 class="local cn">Markov Melody Generator</h2>
-						<p class="local en">A Max for Live Melody Generator Utilizing Markov Chains</p>
-						<p class="local cn">A Max for Live Melody Generator Utilizing Markov Chains</p>
-					</div>
-				</a>
-			</li>
+      <div class="grid" id="work-grid">
 
-			<li>
-				<a href="#0" name="p3" class="showContainer">
-					<img class="introImg" src="img/sd_bg.png" alt="project image">
-					<div class="project-info">
-						<h2 class="local en">AR Game</h2>
-						<h2 class="local cn">AR 游戏</h2>
-						<p class="local en">Senior Design – Astral Raiders</p>
-						<p class="local cn">毕业设计 – Astral Raiders</p>
-					</div>
-				</a>
-			</li>
+        <!-- ---------------------------------------------- software & systems -->
+        <article class="card" data-cat="software">
+          <div class="card__media card__media--blank">
+            <span class="card__stat"><b>~100&#8202;ms</b><span>end-to-end latency</span></span>
+            <span class="card__badge">Software &amp; Systems</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="lan" data-label="Software &amp; Systems">LAN Remote Desktop &amp; Screen Streaming</button></h3>
+              <span class="card__year">2023</span>
+            </div>
+            <p class="card__desc">
+              Drive a desktop from any device on the house network through a browser —
+              nothing to install, ~100&nbsp;ms of latency, and about twenty per-game key
+              layouts. Four small services instead of one binary, because packaging means
+              a platform matrix.
+            </p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>WebSocket</span><span>Java</span><span>ffmpeg</span></div>
+            <p class="card__more">Read the write-up →</p>
+          </div>
+        </article>
 
-			<li>
-				<a href="#0" name="p5" class="showContainer">
-					<img src="img/spook_bg.png" alt="project image">
-					<div class="project-info">
-						<h2 class="local en">Unity Game</h2>
-						<h2 class="local cn">Unity项目</h2>
-						<p class="local en">2D Platformer – Spooky</p>
-						<p class="local cn">2D横版过关游戏 - Spooky</p>
-					</div>
-				</a>
-			</li>
-		</ul>
+        <article class="card" data-cat="software">
+          <div class="card__media card__media--blank">
+            <span class="card__stat"><b>local LLM</b><span>inside the loop</span></span>
+            <span class="card__badge">Software &amp; Systems</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="rms" data-label="Software &amp; Systems">Relationship Management System</button></h3>
+              <span class="card__year">2026 – now</span>
+            </div>
+            <p class="card__desc">
+              Most tools store people and stop at the introduction. This one models the
+              relationship itself — what state it is in and what it needs next — with a
+              locally hosted language model working inside that loop.
+            </p>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>Node.js</span><span>Drizzle ORM</span><span>SQLite</span><span>Local LLM</span></div>
+            <p class="card__more">Read the write-up →</p>
+          </div>
+        </article>
 
-		<ul class="cd-slider-navigation cd-img-replace">
-			<li><a href="#0" class="prev inactive">Prev</a></li>
-			<li><a href="#0" class="next">Next</a></li>
-		</ul> <!-- .cd-slider-navigation -->
-	</div> <!-- .cd-projects-wrapper -->
+        <article class="card" data-cat="software">
+          <div class="card__media">
+            <img src="img/thumb/cymatic.jpg" alt="The Aeon Cymatic web app showing a spectrum analyser and its mode selector." loading="lazy" width="720" height="405" decoding="async">
+            <span class="card__badge">Software &amp; Systems</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="cymatic" data-label="Software &amp; Systems">Aeon Cymatic</button></h3>
+              <span class="card__year">Platform</span>
+            </div>
+            <p class="card__desc">
+              The platform the music-technology tools live in: one browser-based home for
+              the visualizer, the beat generator and MIDIbook, so none of them need an
+              install or a desktop DAW to try.
+            </p>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>Vite</span><span>Ant Design</span><span>Node.js</span><span>SQLite</span></div>
+            <p class="card__more">Read the write-up →</p>
+          </div>
+        </article>
 
-	<div class="cd-project-content">
-		<div id="m1-content" class="project-content">
-			<h2 class="local en">Beyond The Outpost Introduction</h2>
-			<p>
-				<span class="local en">Available at:</span>
-				<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2155276512&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sajuuk-kpr" title="Sajuuk Kpr" target="_blank" style="color: #cccccc; text-decoration: none;">Sajuuk Kpr</a> · <a href="https://soundcloud.com/sajuuk-kpr/beyond-the-outpost" title="Beyond The Outpost" target="_blank" style="color: #cccccc; text-decoration: none;">Beyond The Outpost</a></div>
-			</p>
-			<em class="local en title">Background & Motivation</em>
-			<em class="local en">The initial idea for Beyond The Outpost came from a science-fiction narrative: in the year 2200, humans have achieved FTL (faster-than-light) travel, and an advanced research vessel embarks on a mission to explore unknown star systems. In fact, the exploration of the unknown and the wonder of the starry sky have long been among my favorite creative themes. It is not a subject rooted in any real-world setting, yet it is not about magic or the supernatural either. Planets, stars, gravity, nebulae, black holes, galaxies — to humanity, these are like a still, eternal backdrop. But what appears static and slow-moving harbors immense energy. The act of exploring them brings infinite possibilities — and a chance to uncover the very nature of existence. This sense of cosmic discovery is at the heart of my motivation for this piece.</em>
-			<em class="local en">Scientific exploration, I believe, is far from dull or monotonous. Quite the opposite: when we take our first steps under the vast sky, when we set foot upon extraterrestrial bodies, these are humanity’s boldest, most determined footsteps. Yet this is not our end point — it is merely the launchpad for the next bold attempt. That courage to explore, and the blend of wonder and unease in facing the unknown, is exactly what I wanted to convey in this work.</em>
-			<em class="local en">“A research ship carrying the best scientists of humanity has set off — no one knows what they will discover on the other side. Let us wish them luck.”</em>
-			
-			<em class="local en title">Techniques</em>
-			<em class="local en"><span class="bold">• Platform:</span> Ableton Live was used as the primary environment for composition and production.</em>
-			<em class="local en"><span class="bold">• Sound Sources:</span> Electronic sounds and bass were mainly generated with Strobe. Percussion was primarily sampled from Kontakt's Damaged Drum Kit, while other orchestral elements were sourced from Ableton's built-in instruments and expansion packs.</em>
-			<em class="local en"><span class="bold">• Processing & Effects:</span> Audio was processed using EQ, Reverb, Utility, Compressor, and other effects. Automation was applied to control effect parameters, allowing the sound to evolve over time.</em>
-			
-			<em class="local en title">Project Overview</em>
+        <!-- ------------------------------------------------- music technology -->
+        <article class="card" data-cat="musictech">
+          <div class="card__media">
+            <img src="img/thumb/visualizer.jpg" alt="Visualizer settings panel with spectrum, waveform, circular and particle modes." loading="lazy" width="720" height="405" decoding="async">
+            <span class="card__badge">Music Technology</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="visualizer" data-label="Music Technology">Audio Visualizer</button></h3>
+              <span class="card__year">Aeon Cymatic</span>
+            </div>
+            <p class="card__desc">
+              Real-time spectrum and waveform rendering on HTML Canvas, with several
+              configurable visual modes and a cursor-driven particle field.
+            </p>
+            <div class="tags"><span>Web Audio API</span><span>Canvas</span><span>React</span><span>TypeScript</span></div>
+            <p class="card__more">Read the write-up →</p>
+          </div>
+        </article>
 
-			<div class="clearfix">
-				<em class="imgDes local en">Overview of selected tracks in the MIDI arrangement.</em>
-				<img class="descImg" src="img/m1/img1.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">EQ Eight and Utility automation following the musical rhythm.</em>
-				<img class="descImg" src="img/m1/img2.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Unconventional EQ frequency automation.</em>
-				<img class="descImg" src="img/m1/img3.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Note content of the bass MIDI clip.</em>
-				<img class="descImg" src="img/m1/img4.jpg" style="float:left; width:100%;" alt="project image">
-			</div>
-			<p>
-				<span class="local en">Available at:</span>
-				<a href="https://soundcloud.com/sajuuk-kpr/beyond-the-outpost?si=d8fdb49a38cc4028bf0910b23909fdd2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" rel="noopener">SOUNDCLOUD</a>
-			</p>
-		</div>
+        <article class="card" data-cat="musictech">
+          <div class="card__media">
+            <img src="img/thumb/beat.jpg" alt="Drum beat generator with bar, complexity and step controls above a generated grid." loading="lazy" width="720" height="405" decoding="async">
+            <span class="card__badge">Music Technology</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="beat" data-label="Music Technology">Drum Beat Generator</button></h3>
+              <span class="card__year">Aeon Cymatic</span>
+            </div>
+            <p class="card__desc">
+              A testbed for probabilistic pattern generation: set BPM, style, grid and
+              probability weights, listen, then export the result straight to MIDI.
+            </p>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>MIDI export</span><span>Ant Design</span></div>
+            <p class="card__more">Read the write-up →</p>
+          </div>
+        </article>
 
-		<div id="m2-content" class="project-content">
-			<h2 class="local en">Journey To Citadel Introduction</h2>
-			<p>
-				<span class="local en">Available at:</span>
-				<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2155277301&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sajuuk-kpr" title="Sajuuk Kpr" target="_blank" style="color: #cccccc; text-decoration: none;">Sajuuk Kpr</a> · <a href="https://soundcloud.com/sajuuk-kpr/journey-to-citadel" title="Journey to Citadel" target="_blank" style="color: #cccccc; text-decoration: none;">Journey to Citadel</a></div>
-			</p>
-			<em class="local en title">Background & Motivation</em>
-			<em class="local en">Journey to Citadel is an attempt in a somewhat symphonic style. At its core, this piece is about a journey — not a leisurely trip, but a purposeful, challenging adventure, an abstract voyage. The scenery along the way is not merely visually beautiful; rather, it represents the changing experiences one undergoes during the journey. I composed this piece around the feelings of joy, transformation, and perseverance.</em>
-			<em class="local en">“Citadel” may refer to a concrete place or serve as a symbolic destination imbued with meaning. In my mind, it is like a fortress — not a typical castle, but a spiritual sanctuary, a home world, a place of refuge; something deeply significant to many. For some, Citadel is a home; for others, a bustling city; for still others, it stands as a symbol of their dreams. Everyone has a reason to reach it. I wondered: how can I express the extraordinary significance of such a place in music? I believe that the journey toward it is what truly gives the destination meaning. It is the process of moving toward a goal — the struggle, the growth, the striving — that I want to convey in this composition.</em>
-			
-			<em class="local en title">Techniques</em>
-			<em class="local en"><span class="bold">• Platform:</span> Ableton Live was used as the primary environment for composition and production.</em>
-			<em class="local en"><span class="bold">• Sound Sources:</span> The primary sound sources were Ableton's built-in orchestral instruments and expansion packs.</em>
-			<em class="local en"><span class="bold">• Processing & Effects:</span> Audio was processed using EQ, Reverb, Utility, Compressor, and other effects. Automation was applied to control effect parameters, allowing the sound to evolve over time.</em>
-			
-			<em class="local en title">Project Overview</em>
+        <article class="card" data-cat="musictech">
+          <div class="card__media">
+            <img src="img/thumb/midibook.jpg" alt="Piano roll editor with notes placed on a pitch grid." loading="lazy" width="720" height="405" decoding="async">
+            <span class="card__badge">Music Technology</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="midibook" data-label="Music Technology">MIDIbook</button></h3>
+              <span class="card__year">Aeon Cymatic</span>
+            </div>
+            <p class="card__desc">
+              A digital sketchbook for music: a stripped-down piano roll for catching an
+              idea before it evaporates, with notes persisted server-side so the sketch is
+              on whichever device you pick up next.
+            </p>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>Node.js</span><span>SQLite</span></div>
+            <p class="card__more">Read the write-up →</p>
+          </div>
+        </article>
 
-			<div class="clearfix">
-				<em class="imgDes local en">Overview of main tracks in the MIDI arrangement</em>
-				<img class="descImg" src="img/m2/img1.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Note content of the piano MIDI clip.</em>
-				<img class="descImg" src="img/m2/img2.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Utility automation following the musical rhythm.</em>
-				<img class="descImg" src="img/m2/img3.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Audio track with some simple raiser and some abrupt sounds.</em>
-				<img class="descImg" src="img/m2/img4.jpg" style="float:left; width:100%;" alt="project image">
-			</div>
-			<p>
-				<span class="local en">Available at:</span>
-				<a href="https://soundcloud.com/sajuuk-kpr/journey-to-citadel?si=d44ca7b33bf5459fa533244fa701b6e8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" rel="noopener">SOUNDCLOUD</a>
-			</p>
-		</div>
+        <article class="card" data-cat="musictech">
+          <div class="card__media">
+            <img src="img/thumb/markov.jpg" alt="Max for Live device interface for the Markov melody generator." loading="lazy" width="720" height="405" decoding="async">
+            <span class="card__badge">Music Technology</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="markov" data-label="Music Technology">Markov Melody Generator</button></h3>
+              <span class="card__year">Max for Live</span>
+            </div>
+            <p class="card__desc">
+              An Ableton device that trains a variable-order Markov model on the clips
+              already in your session, then writes suggested notes back into the clip you
+              have selected — context-aware, not generic.
+            </p>
+            <div class="tags"><span>Max for Live</span><span>JavaScript</span><span>Ableton Live API</span><span>Markov chains</span></div>
+            <p class="card__more">Read the write-up →</p>
+          </div>
+        </article>
 
-		<div id="m3-content" class="project-content">
-			<h2 class="local en">Celestropolis Introduction</h2>
-			<p>
-				<span class="local en">Available at:</span>
-				<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2220997289&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sajuuk-kpr" title="Sajuuk Kpr" target="_blank" style="color: #cccccc; text-decoration: none;">Sajuuk Kpr</a> · <a href="https://soundcloud.com/sajuuk-kpr/celestropolis" title="Celestropolis" target="_blank" style="color: #cccccc; text-decoration: none;">Celestropolis</a></div>			
-			</p>
-			<em class="local en title">Background & Motivation</em>
-			<em class="local en">Celestropolis actually evolved from a previous project I called FIN. I was dissatisfied with certain aspects of FIN — notably the mixing and the way instruments interacted — and I wanted to try out improved arranging techniques. After analyzing its shortcomings, I began a new musical experiment to validate the theories and ideas I had gleaned, and thus Celestropolis was born. In other words, its original purpose was more technical experimentation than conceptual expression. I explored how to refine mix control, improve instrument coordination, and handle transitions more smoothly.</em>
-			<em class="local en">As the creative process progressed, a larger musical vision gradually emerged in my mind — that of the sky. I began to conceive the project around this aerial theme. But because the piece originated from technical experimentation, its interpretation of “sky” is not simply the serene blue expanse; rather, it embodies a complex, fantastical quality. Over time, a city in the sky materialized in my imagination — like a meticulously woven blueprint of architecture floating among the clouds.</em>
-			<em class="local en">Celestropolis is, to me, the fusion of technology and imagination. This concept — a sky city symbolic of wonder and the unimaginable — became the core around which I shaped the music. Through my composition, I aimed to render and express this idea, painting with sound a vision of an otherworldly metropolis in the heavens.</em>
-			
-			<em class="local en title">Techniques</em>
-			<em class="local en"><span class="bold">• Platform:</span> Ableton Live was used as the primary environment for composition and production.</em>
-			<em class="local en"><span class="bold">• Sound Sources:</span> The primary sound sources were Ableton's built-in orchestral instruments and expansion packs, with additional sounds sourced from Strobe and Heaviocity.</em>
-			<em class="local en"><span class="bold">• Processing & Effects:</span> Audio was processed using EQ, Reverb, Utility, Compressor, and other effects. Automation was applied to control effect parameters, allowing the sound to evolve over time.</em>
-			
-			<em class="local en title">Project Overview</em>
+        <!-- ------------------------------------------------------------ games -->
+        <article class="card" data-cat="games">
+          <div class="card__media">
+            <img src="img/thumb/astral.jpg" alt="Astral Raiders title art for Microsoft HoloLens." loading="lazy" width="400" height="225" decoding="async">
+            <span class="card__badge">Games</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="astral" data-label="Games">Astral Raiders</button></h3>
+              <span class="card__year">2017</span>
+            </div>
+            <p class="card__desc">
+              Senior design project: an augmented-reality tower defence for Microsoft
+              HoloLens, where the room you are standing in becomes the battlefield.
+            </p>
+            <div class="tags"><span>Unity</span><span>C#</span><span>HoloLens</span><span>AR</span></div>
+            <p class="card__more">Read the write-up →</p>
+          </div>
+        </article>
 
-			<div class="clearfix">
-				<em class="imgDes local en">Overview of main tracks in the MIDI arrangement</em>
-				<img class="descImg" src="img/m3/img1.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Expanded view of the melodic track group.</em>
-				<img class="descImg" src="img/m3/img2.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Note content of the piano MIDI clip.</em>
-				<img class="descImg" src="img/m3/img3.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">EQ Three and Utility automation following the musical rhythm.</em>
-				<img class="descImg" src="img/m3/img4.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Tracks processed with a sidechain compressor, with Saturator applied as a modifier.</em>
-				<img class="descImg" src="img/m3/img5.jpg" style="float:left; width:100%;" alt="project image">
-			</div>
-			<p>
-				<span class="local en">Available at:</span>
-				<a href="https://soundcloud.com/sajuuk-kpr/celestropolis?si=e3a642de14f74d2ea630c7e5be11ea26&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" rel="noopener">SOUNDCLOUD</a>
-			</p>
-		</div>
+        <article class="card" data-cat="games">
+          <div class="card__media">
+            <img src="img/thumb/spooky.jpg" alt="Title art for the 2D platformer Spooky." loading="lazy" width="400" height="225" decoding="async">
+            <span class="card__badge">Games</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="spooky" data-label="Games">Spooky</button></h3>
+              <span class="card__year">Team project</span>
+            </div>
+            <p class="card__desc">
+              A Halloween 2D platformer built in Unity — three levels and a boss run,
+              where killing an enemy and picking up its head grants you its ability.
+            </p>
+            <div class="tags"><span>Unity</span><span>C#</span><span>2D platformer</span></div>
+            <p class="card__more">Read the write-up →</p>
+          </div>
+        </article>
 
-		<div id="p1-1-content" class="project-content">
-			<h2 class="local en">Audio Visualizer Introduction</h2>
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-			
-			<p>
-				<span class="local en">Available at:</span>
-				<a href="http://172.96.193.131/cymatic/visual" target="_blank" rel="noopener">HERE</a><br/>
-				<span class="local en">Source code:</span>
-				<a href="https://github.com/kprsajuuk/Aeon-Cymatic" target="_blank">
-					<i class="fab fa-github"></i> GitHub
-				</a>
-			</p>
-			<em class="local en title">Feature Descriptions</em>
-			<em class="local en">•	An audio visualization tool that experiments with real-time visual representations of sound. It parses audio data and renders it using HTML Canvas to display a spectrum analyzer and waveform.</em>
-			<em class="local en">•	The tool supports multiple visualization modes, each of which can be configured. There is also a prototype for mouse interaction to dynamically influence the visualization.</em>
-			<em class="local en">•	Includes a simple custom audio player to control playback, enabling synchronized interaction between playback and the visualization canvas.</em>
+        <!-- ------------------------------------------------------------ music -->
+        <article class="card" data-cat="music">
+          <div class="card__media">
+            <img src="img/thumb/m1.jpg" alt="A starship travelling toward a distant galaxy." loading="lazy" width="720" height="405" decoding="async">
+            <span class="card__badge">Music</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="m1" data-label="Music">Beyond The Outpost</button></h3>
+              <span class="card__year">Ableton Live</span>
+            </div>
+            <p class="card__desc">
+              Electronic and orchestral hybrid. A research vessel leaves for an unknown
+              star system; nobody knows what it will find on the other side.
+            </p>
+            <div class="tags"><span>Composition</span><span>Sound design</span><span>Mixing</span></div>
+            <p class="card__more">Listen and read →</p>
+          </div>
+        </article>
 
+        <article class="card" data-cat="music">
+          <div class="card__media">
+            <img src="img/thumb/m2.jpg" alt="Cover art for Journey to Citadel." loading="lazy" width="720" height="405" decoding="async">
+            <span class="card__badge">Music</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="m2" data-label="Music">Journey to Citadel</button></h3>
+              <span class="card__year">Ableton Live</span>
+            </div>
+            <p class="card__desc">
+              A symphonic attempt about the trip rather than the destination — what the
+              striving does to you on the way to somewhere that matters.
+            </p>
+            <div class="tags"><span>Composition</span><span>Orchestration</span><span>Mixing</span></div>
+            <p class="card__more">Listen and read →</p>
+          </div>
+        </article>
 
-			<em class="local en title">Technology & Architecture</em>
-			<em class="local en">This project is built on a Browser–Server (BS) architecture to facilitate easy access and cross-platform use.</em>
-			<em class="local en">It has been integrated into Aeon Cymatic platform</em>
-			<em class="local en">Vite + TypeScript + React + Ant Design</em>
-			
-			<em class="local en title">Project Overview</em>
+        <article class="card" data-cat="music">
+          <div class="card__media">
+            <img src="img/thumb/m3.jpg" alt="Cover art for Celestropolis." loading="lazy" width="720" height="405" decoding="async">
+            <span class="card__badge">Music</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3><button type="button" class="card__open" data-project="m3" data-label="Music">Celestropolis</button></h3>
+              <span class="card__year">Ableton Live</span>
+            </div>
+            <p class="card__desc">
+              Started as a technical experiment in mix control and instrument
+              coordination, and turned into a city floating in the clouds.
+            </p>
+            <div class="tags"><span>Composition</span><span>Mix engineering</span><span>Sidechain</span></div>
+            <p class="card__more">Listen and read →</p>
+          </div>
+        </article>
 
-			<div class="clearfix">
-				<em class="imgDes local en">Audio visualizer with playback controls and multiple visualization modes.</em>
-				<img class="descImg" src="img/p1-1/img1.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Adjustable settings that modify the graph's visual output.</em>
-				<img class="descImg" src="img/p1-1/img2.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Interactive particle effects triggered by cursor movement.</em>
-				<img class="descImg" src="img/p1-1/img3.jpg" style="float:left; width:100%;" alt="project image">
-			</div>
-			<br/>
-			<p>
-				<span class="local en">Available at:</span>
-				<a href="http://172.96.193.131/cymatic/visual" target="_blank" rel="noopener">HERE</a>
-			</p>
-		</div>
+      </div>
+      <p class="grid__empty" id="work-empty" hidden>Nothing in this category yet.</p>
+    </div>
+  </section>
 
-		<div id="p1-2-content" class="project-content">
-			<h2 class="local en">Drum Beat Introduction</h2>
-			<p>
-				<span class="local en">Available at:</span>
-				<a href="http://172.96.193.131/cymatic/beat" target="_blank" rel="noopener">HERE</a><br/>
-				<span class="local en">Source code:</span>
-				<a href="https://github.com/kprsajuuk/Aeon-Cymatic" target="_blank">
-					<i class="fab fa-github"></i> GitHub
-				</a>
-			</p>
-			<em class="local en title">Feature Descriptions</em>
-			<em class="local en">•	A beat generator designed to test random / probabilistic algorithms for creating drum patterns. Users can set BPM, style, rhythm pattern, and probability parameters.</em>
-			<em class="local en">•	Generated drum sequences can be exported directly as MIDI files. Currently, the pitch values in the exported MIDI are fixed; in future versions, the design will allow specifying the pitch of individual drum voices.</em>
-			<em class="local en">•	Different rhythmic styles are produced based on configurable weights and generation strategies, although more detailed style customization is not yet available.</em>
+  <!-- ========================================================== experience -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>Experience</h2>
+        <p class="section__note">The short version. Dates, scope and numbers are in the résumé.</p>
+      </div>
 
+      <div class="roles">
+        <div class="role">
+          <div class="role__when">Aug 2026 &ndash; May 2028</div>
+          <div>
+            <div class="role__org">Carnegie Mellon University</div>
+            <div class="role__title">Master of Software Engineering, School of Computer Science</div>
+            <div class="role__where">Pittsburgh, PA</div>
+            <p class="role__what">
+              Coursework in machine learning in production, formal methods and requirements
+              engineering, alongside a two-semester industry studio capstone.
+            </p>
+          </div>
+        </div>
 
-			<em class="local en title">Technology & Architecture</em>
-			<em class="local en">This project is built on a Browser–Server (BS) architecture to facilitate easy access and cross-platform use.</em>
-			<em class="local en">It has been integrated into Aeon Cymatic platform</em>
-			<em class="local en">Vite + TypeScript + React + Ant Design</em>
-			
-			<em class="local en title">Project Overview</em>
+        <div class="role">
+          <div class="role__when">May 2019 &ndash; Aug 2026</div>
+          <div>
+            <div class="role__org">Peking University Software Engineering Co., Ltd</div>
+            <div class="role__title">Front-end Lead (2021&ndash;2026) · Frontend Developer (2019&ndash;2021)</div>
+            <div class="role__where">Beijing, China</div>
+            <p class="role__what">
+              Product engineering for enterprise software security tooling — static analysis,
+              software composition analysis and supply chain monitoring. Led frontend for a
+              three-person team inside a roughly 25-person cross-functional product group, and
+              over time took on requirements and product definition for two zero-to-one
+              platforms while continuing to own frontend delivery.
+            </p>
+          </div>
+        </div>
 
-			<div class="clearfix">
-				<em class="imgDes local en">Drum beat generator with customizable parameters.</em>
-				<img class="descImg" src="img/p1-2/img1.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Generated beat patterns available for viewing and download.</em>
-				<img class="descImg" src="img/p1-2/img2.jpg" style="float:left; width:100%;" alt="project image">
-			</div>
-			<br/>
-			<p>
-				<span class="local en">Available at:</span>
-				<a href="http://172.96.193.131/cymatic/beat" target="_blank" rel="noopener">HERE</a>
-			</p>
-		</div>
+        <div class="role">
+          <div class="role__when">Jan &ndash; Sep 2018</div>
+          <div>
+            <div class="role__org">CG Max Design Corp</div>
+            <div class="role__title">Web Software Developer</div>
+            <div class="role__where">Remote (Philadelphia, PA)</div>
+            <p class="role__what">
+              Website and internal tooling work during a platform migration.
+            </p>
+          </div>
+        </div>
 
-		<div id="p1-3-content" class="project-content">
-			<h2 class="local en">MIDIbook Introduction</h2>
-			<p>
-				<span class="local en">Available at:</span>
-				<a href="http://172.96.193.131/cymatic/notebook" target="_blank" rel="noopener">HERE</a><br/>
-				<span class="local en">Source code:</span>
-				<a href="https://github.com/kprsajuuk/Aeon-Cymatic" target="_blank">
-					<i class="fab fa-github"></i> GitHub
-				</a>
-			</p>
-			<em class="local en title">Feature Descriptions</em>
-			<em class="local en">•	A simplified, DAW-like MIDI editing tool (piano-roll) intended for quick sketching of musical ideas and capturing spontaneous creative inspiration.</em>
-			<em class="local en">•	Provides a basic preview capability via audio synthesis. At present, it uses a simple synthesizer with three basic voices (rather than a sampled piano) to avoid server resource issue, though these sounds can be refined later.</em>
-			<em class="local en">•	Persists note data in an SQLite database on the back end. Currently, notes are restricted to a fixed grid; future updates aim to support more flexible note start times and lengths.</em>
+        <div class="role">
+          <div class="role__when">Sep 2013 &ndash; Sep 2017</div>
+          <div>
+            <div class="role__org">Drexel University</div>
+            <div class="role__title">B.S. in Computer Science</div>
+            <div class="role__where">Philadelphia, PA</div>
+            <p class="role__what">
+              Including two co-op placements through the Drexel co-op program: Web Developer at
+              MODWorldWide, and Frontend Development Assistant at Scandura.
+            </p>
+          </div>
+        </div>
+      </div>
 
+      <p class="resume-line">
+        <a class="ext" href="resume/Yunhan-Li-Resume.pdf" target="_blank" rel="noopener">Download the résumé (PDF)</a>
+      </p>
+    </div>
+  </section>
 
-			<em class="local en title">Technology & Architecture</em>
-			<em class="local en">This project is built on a Browser–Server (BS) architecture to facilitate easy access and cross-platform use.</em>
-			<em class="local en">It has been integrated into Aeon Cymatic platform</em>
-			<em class="local en">Vite + TypeScript + React + Ant Design. The back end uses Node.js + SQLite to provide a lightweight database and API services.</em>
-			
-			<em class="local en title">Project Overview</em>
+  <!-- =============================================================== about -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section__head">
+        <h2>About</h2>
+      </div>
 
-			<div class="clearfix">
-				<em class="imgDes local en">MIDI notebook system for storing experimental melody data.</em>
-				<img class="descImg" src="img/p1-3/img1.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Custom settings interface for the notebook.</em>
-				<img class="descImg" src="img/p1-3/img2.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Piano roll with basic MIDI clip editing capabilities.</em>
-				<img class="descImg" src="img/p1-3/img3.jpg" style="float:left; width:100%;" alt="project image">
-			</div>
-			<br/>
-			<p>
-				<span class="local en">Available at:</span>
-				<a href="http://172.96.193.131/cymatic/notebook" target="_blank" rel="noopener">HERE</a>
-			</p>
-		</div>
+      <div class="about">
+        <div class="prose">
+          <p>
+            I am a software engineer. For seven years I built the layer of enterprise security
+            tooling that people actually touch — static analysis, software composition analysis,
+            supply chain monitoring — which in practice meant translating what an analysis engine
+            can do into something a developer, a security team or an engineering director can
+            configure and act on. <strong>The hard problem in that domain is not detection.</strong>
+            It is noise: a scanner that cries wolf gets switched off, and a switched-off scanner
+            detects nothing at all.
+          </p>
+          <p>
+            That work pulled me steadily upstream. Making the frontend fast and low-coupling
+            freed up capacity; the capacity turned into requirements work, then module design,
+            then product ownership of two zero-to-one platforms — while I kept owning frontend
+            delivery the whole time. What I learned along the way is that a product decision is
+            usually an architecture decision wearing a different hat. You cannot design an
+            interactive call graph for a multi-user web application without first deciding how
+            graph data gets cached, persisted and modelled.
+          </p>
+          <p>
+            <strong>Music is the other place I do this.</strong> I compose in Ableton Live, and
+            the tools I build for it — a real-time visualizer, a probabilistic beat generator, a
+            piano-roll sketchpad, a Markov-chain melody generator that learns from the clips
+            already in your session — are the same exercise pointed at a different user: take
+            something technically dense, an FFT buffer or a variable-order Markov model, and put
+            it behind controls a musician will reach for mid-idea. Being the demanding user of my
+            own tools has done more for my judgement about interaction design than reading about
+            it ever did.
+          </p>
+          <p>
+            I came back to school because I wanted to look at the abstractions underneath the
+            code again, and because AI is changing what this job is. I am extending from the
+            interface layer out to end-to-end software engineering, and I am looking for a
+            Summer 2027 internship where that extension happens on a real team.
+          </p>
 
-		<div id="p2-content" class="project-content">
-			<h2 class="local en">Markov Melody Generator Introduction</h2>
-	
-			<em class="local en title">Core Functionality & Purpose</em>
-			<em class="local en">The primary purpose of this plugin is to realize a basic Markov chain model as a melody generator: it learns from existing MIDI clips in the current Ableton project, incorporates them into the model, and then uses the model to predict and generate new melody suggestions.</em>
-			<em class="local en">By doing so, the plugin helps composers and producers in the creative process by providing context-aware melodic ideas. It can generate supporting melodies (secondary melodic material) based on the style of the existing clip. It can also serve as a source of core melodic inspiration, accelerating the composition process by allowing users to quickly test and validate musical ideas.</em>
+        </div>
 
-			<em class="local en title">Technology & Architecture</em>
-			<em class="local en">This plugin is implemented as a Max for Live device for Ableton Live 11. The core logic is written in JavaScript, utilizing the Max js object to handle data, manage the Markov model, and process MIDI information.</em>
+        <div>
+          <div class="aside-card">
+            <h3>Currently</h3>
+            <div class="stack-list">
+              <div><b>Studying</b>MSE, Carnegie Mellon School of Computer Science — Pittsburgh, PA</div>
+              <div><b>Looking for</b>Summer 2027 software engineering internship</div>
+              <div><b>Building</b>A relationship management system with a locally hosted LLM in the loop</div>
+              <div><b>Writing music as</b><a class="ext" href="https://soundcloud.com/sajuuk-kpr" target="_blank" rel="noopener">Sajuuk Kpr</a></div>
+            </div>
+          </div>
 
-			<em class="local en title">Feature Descriptions</em>
-			<em class="local en title">Training</em>
-			<em class="local en">•	The model’s order can be configured. The plugin supports up to 6th-order Markov modeling to allow deeper context in learning.</em>
-			<em class="local en">•	The same MIDI clip can be trained multiple times, possibly at different orders, to refine the model.</em>
-			<em class="local en">•	Two training modes are supported. Overwrite mode clears the existing model and retrains from scratch while Merge mode retains the existing Markov data and adds new training data, thus accumulating data map.</em>
-			<em class="local en title">Generation</em>
-			<em class="local en">•	The plugin writes notes into a clip in real time based on the configured model, without deleting the original notes in that clip. The number of new notes is controlled via a parameter.</em>
-			<em class="local en">•	A randomness ratio parameter determines how strictly the generation adheres to the learned Markov model: a higher ratio introduces more randomness and creative divergence.</em>
-			<em class="local en">•	Since there are different ways to search through a multi-order Markov model, the plugin provides multiple algorithmic strategies: currently implemented are a waterfall strategy and a weighted-ratio strategy.</em>
-			<em class="local en">•	Melody generation is based on the currently selected MIDI clip. Through the Ableton Live API, the plugin obtains the selected clip and appends new notes after the last existing note in that clip.</em>
+          <div class="aside-card">
+            <h3>Toolbox</h3>
+            <div class="stack-list">
+              <div><b>Languages</b>TypeScript / JavaScript, Python, Java, C#, SQL</div>
+              <div><b>Frontend</b>React, Vue, Vite, Ant Design, ECharts, AntV (G6, F2)</div>
+              <div><b>Backend &amp; data</b>Node.js, Express, Drizzle ORM, SQLite</div>
+              <div><b>Build &amp; delivery</b>Vite, npm scripting, nginx, IIS, FTP release automation</div>
+              <div><b>Product</b>Developer tooling, SAST / SCA workflows, requirements definition, technical documentation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
 
-			<em class="local en title">Project Overview</em>
-			<div class="clearfix">
-				<em class="imgDes local en">The Max4Live plugin loaded into a MIDI track (location shown in bottom-left corner).</em>
-				<img class="descImg" src="img/p2/img1.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Max interface in presentation mode.</em>
-				<img class="descImg" src="img/p2/img2.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">A custom JS node containing the model controller code.</em>
-				<img class="descImg" src="img/p2/img3.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Trained on MIDI clips containing existing musical notes.</em>
-				<img class="descImg" src="img/p2/img4.jpg" style="float:left; width:100%;" alt="project image">
-				<em class="imgDes local en">Generates a predicted note.</em>
-				<img class="descImg" src="img/p2/img5.jpg" style="float:left; width:100%;" alt="project image">
-			</div>
-			<br/>
-		</div>
+<!-- ================================================================= footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p><a href="mailto:yunhanli@andrew.cmu.edu">yunhanli@andrew.cmu.edu</a></p>
+        <p>Pittsburgh, PA</p>
+      </div>
+      <nav class="footer-links" aria-label="Elsewhere">
+        <a class="ext" href="https://github.com/kprsajuuk" target="_blank" rel="noopener">GitHub</a>
+        <a class="ext" href="https://www.linkedin.com/in/yunhan-li-403259140" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="ext" href="https://soundcloud.com/sajuuk-kpr" target="_blank" rel="noopener">SoundCloud</a>
+        <a class="ext" href="resume/Yunhan-Li-Resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      </nav>
+    </div>
+    <p class="colophon">
+      &copy; <span id="year">2026</span> Yunhan Li. Hand-written HTML, CSS and JavaScript —
+      no framework, no build step.
+    </p>
+  </div>
+</footer>
 
-		<div id="p3-content" class="project-content">
-			<h2 class="local en">Senior Design – Astral Raiders</h2>
-			<h2 class="local cn">毕业设计 – Astral Raiders</h2>
-			<em class="local en">Astral Raiders is an action tower defense game for the Microsoft Hololens. It is an Augmented Reality(AR) game which will bring unique game experience to the players.</em>
-			<em class="local cn">AstralRaiders是一个基于微软Hololens平台的塔防游戏项目。这是一款AR(增强现实)游戏，它能够为玩家带来独特的游戏体验。</em>
-			<em class="local en">A small spacecraft crashes into the player's room where the ship's captain tells the player he's being followed by space pirates. The player must collect different items from around the room and create defensive items to defend the ship from incoming space enemies. When enemies are killed, they may drop loot such as new objects for the player to collect.</em>
-			<em class="local cn">一个小型宇宙飞船撞上了玩家的房间。船长告诉玩家他正在被太空海盗追踪。玩家需要从房间中收集不同的零件并建造炮塔用以抵挡飞船免受海盗的攻击。当敌人被击毁时，他们亦会掉落可用的零件。</em>
-			<div>
-				<img src="img/sd_homepage.png" width="100%" alt="project image">
-				<img src="img/sd_ingame.gif" width="100%" alt="project image">
-			</div>
-			<em class="local en">The game is developed with Unity.</em>
-			<em class="local cn">该项目使用Unity开发.</em>
-			<p>
-				<span class="local en">Latest code package:</span>
-				<span class="local cn">工程文件:</span>
-				<span href="#0" target="_blank" rel="noopener">Not available at this time</span>
-			</p>
-		</div>
+<!-- ========================================================== detail panel -->
+<div class="panel" id="panel" hidden role="dialog" aria-modal="true" aria-label="Project detail">
+  <div class="panel__backdrop" data-close></div>
+  <div class="panel__sheet">
+    <div class="panel__bar">
+      <span class="panel__kicker" id="panel-kicker"></span>
+      <button type="button" class="panel__close" data-close aria-label="Close">&times;</button>
+    </div>
+    <div class="panel__body detail" id="panel-body"></div>
+  </div>
+</div>
 
-		<div id="p5-content" class="project-content">
-			<h2 class="local en">2D Platformer – Spooky</h2>
-			<h2 class="local cn">2D横版过关游戏 - Spooky</h2>
-			<em class="local en">2D platformer game, made with Unity. The game itself has three simple levels and a final boss run. Player can gain special ability by killing enemies and pick up their head. This game is made for Halloween</em>
-			<em class="local cn">2D横版过关游戏，通过Unity开发。游戏共包括三个关卡和一个boss关卡。玩家可以通过击败敌人并捡起他们的掉落物获得特殊能力。</em>
-			<div>
-				<img src="img/spook_ingame.png" width="100%" alt="project image">
-			</div>
-			<em class="local en">Collaborators: Jack Phoebus, Xingyu Huang, Odie Bonner, Saloni Shetty, Yihang Zhong, Kexin Han</em>
-			<em class="local cn">协作者: Jack Phoebus, Xingyu Huang, Odie Bonner, Saloni Shetty, Yihang Zhong, Kexin Han</em>
-			<p>
-				<span class="local en">Available at:</span>
-				<span class="local cn">项目链接:</span>
-				<a href="https://mega.nz/#!WMNAAYrK!4Gjzg8ergELtkSShYygRFSJvtqCwWvCMtlA4Lly-1QA" target="_blank" rel="noopener">HERE</a>
-			</p>
-		</div>
+<!-- ======================================================================= -->
+<!-- Detail bodies. Kept in <template> so their images, SoundCloud iframes    -->
+<!-- and the intro video are never fetched until a card is opened.            -->
+<!-- ======================================================================= -->
 
-		<div id="aboutMe" class="project-content aboutme">
-			<h2 class="local en head">About Me</h2>
-			<em class="local en">Hi, I am a music creator and technology enthusiast with a passion for exploring the intersection of art and innovation. My journey into music began during my university years when I first encountered Ableton Live. What started as an exploration of MIDI and sound design quickly evolved into a deeper understanding of the algorithms and systems that drive music creation. This realization sparked my dedication to combining technical expertise with artistic expression.</em>
-			<em class="local en">With a background in Computer Science, I have developed a strong foundation in algorithm design, system architecture, and problem-solving. These skills have empowered me to build creative tools, such as Aeon Cymatic, a web-based platform designed to inspire and assist musicians. The platform integrates experimental features like a real-time audio visualizer and a MIDI notebook, allowing users to capture and explore musical ideas across devices. My experience in front-end development has also refined my ability to design intuitive, user-centered tools that enhance the creative process.</em>
-			<em class="local en">My musical compositions primarily feature instrumental and epic music, as I find instrumental pieces to be a powerful medium for emotional expression. I believe music is not just an art form, but a tool for sparking innovation and new ideas. By merging technology and music, I aim to create more intuitive and flexible systems that help artists realize their creative visions. I am particularly interested in the role of AI as a collaborator in the creative process, exploring its potential to analyze emotional intent and assist in generating music that resonates with listeners on a deeper level.</em>
-			<em class="local en">I am excited to continue this journey of blending technology and music, pushing the boundaries of creativity, and developing new tools that empower artists to unlock their full potential.</em>
-			<br/>
-			<div>
-				<em class="local en" >Video Introduction</em>
-				<video width="320"controls>
-					<source src="./video/video_intro.mp4" type="video/mp4">
-					Your browsr does not support video tag
-				  </video>
-			</div>
-		</div>
-		<a href="#0" class="close cd-img-replace">Close</a>
-	</div> <!-- .cd-project-content -->
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/jquery.mobile.custom.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<template id="tpl-lan">
+  <h2>LAN Remote Desktop &amp; Screen Streaming</h2>
+  <p class="detail__sub">Personal project · 2023 · designed, built and used daily at home</p>
+  <div class="detail__meta tags">
+    <span>React</span><span>Node.js</span><span>WebSocket</span><span>Java</span><span>ffmpeg</span>
+  </div>
+
+  <h3>Why build it</h3>
+  <p class="lead">
+    I wanted to lie in bed and drive my desktop from an iPad. Every off-the-shelf option
+    routes traffic through the public internet even when both machines are sitting on the
+    same home network, which is the wrong shape for the problem — and it puts a floor under
+    the latency that no amount of tuning gets you past.
+  </p>
+
+  <h3>Constraints, fixed before any code</h3>
+  <ul>
+    <li><b>Zero install, any platform.</b> Open it and use it. No per-OS build for macOS, Windows, Linux, iPad and phone.</li>
+    <li><b>Latency low enough to play on.</b> Not "usable for a spreadsheet" — low enough that input feels attached to the screen.</li>
+    <li><b>Deep input remapping.</b> Different games want completely different control surfaces on a touchscreen.</li>
+  </ul>
+
+  <h3>What I ruled out, and why</h3>
+  <ul>
+    <li><b>Consumer remote-control tools.</b> They round-trip through the public internet, require an account and a client install, and cannot get the latency down.</li>
+    <li><b>OBS as the streaming layer.</b> I measured it: about <b>300&nbsp;ms</b> at best. Fine for broadcast, unusable for control.</li>
+    <li><b>Steam Remote Play.</b> Genuinely good technology, but the configuration surface does not go far enough for what I wanted to remap.</li>
+  </ul>
+
+  <h3>The architecture decision</h3>
+  <p>
+    I picked a browser–server architecture, and the reason is narrower than "the web is
+    convenient": <b>every other architecture requires packaging, and packaging means a
+    platform matrix.</b> A native client is one build per operating system, forever, and I
+    am one person. Anything that runs at home already has a browser, so the browser is the
+    compatibility layer I did not have to write.
+  </p>
+
+  <h3>Four services</h3>
+  <table>
+    <thead><tr><th scope="col">Service</th><th scope="col">Built with</th><th scope="col">Responsibility</th></tr></thead>
+    <tbody>
+      <tr><td>Client</td><td>React</td><td>What the browser connects to; also hosts the key-mapping configuration UI</td></tr>
+      <tr><td>Streaming</td><td>Node.js + WebSocket</td><td>Pushes the video stream to the client and carries the control channel</td></tr>
+      <tr><td>Control</td><td>Java</td><td>Receives input events and drives the machine through <code>java.awt.Robot</code></td></tr>
+      <tr><td>Capture</td><td>ffmpeg</td><td>Screen capture and the actual video source</td></tr>
+    </tbody>
+  </table>
+  <p>
+    They are deliberately not bundled into one binary. A single launcher script brings all
+    four up, and any device on the network connects by IP.
+  </p>
+
+  <h3>Results</h3>
+  <ul>
+    <li><b>About 100&nbsp;ms end to end</b>, against the 300&nbsp;ms I measured out of OBS. Everything short of very high-input-rate games is playable.</li>
+    <li><b>Around 20 key-mapping profiles</b> built up over time — fighting-game layouts, RPG-Maker-style layouts with a D-pad on one side and Z/X/Ctrl on the other, and profiles that translate touch gestures into mouse movement and clicks.</li>
+  </ul>
+
+  <h3>Where it stops</h3>
+  <p>
+    I tried pushing it beyond the LAN once, onto a public server with a VPN standing in for
+    the local network. That quietly converts the whole thing into a public streaming problem,
+    and I never did the streaming robustness work it demands: stall recovery, buffer sizing,
+    read-chunk tuning, clock correction. Jitter can cascade into a hard stall, and the only
+    mitigation today is a "reconnect stream" button in the client. On a LAN none of this
+    shows up, so once the requirement was met I stopped — which is a real limit of the
+    project rather than a rough edge I am about to polish.
+  </p>
+</template>
+
+<template id="tpl-rms">
+  <h2>Relationship Management System</h2>
+  <p class="detail__sub">Personal project · 2026 – present · in active development</p>
+  <div class="detail__meta tags">
+    <span>React</span><span>TypeScript</span><span>Vite</span><span>Node.js</span><span>Drizzle ORM</span><span>SQLite</span><span>Locally hosted LLM</span>
+  </div>
+
+  <h3>The thesis</h3>
+  <p class="lead">
+    Nearly every tool in this space manages <em>people</em>. It stores a name, a title, a
+    company, maybe where you met, and then it stops at the introduction. None of them model
+    the thing that actually decides whether a professional relationship survives: what state
+    it is in right now, and what it needs next.
+  </p>
+  <p>
+    So that is what this system models — people, the interaction history behind them,
+    the stage a relationship has reached, and the next action it is waiting on. Contact
+    storage is the substrate, not the product.
+  </p>
+
+  <h3>Where the model fits</h3>
+  <p>
+    A locally hosted language model is wired into that loop as a component rather than
+    bolted on as a chat box. It parses profiles captured by a browser userscript, normalises
+    them into the same schema as everything else, and drafts contextual outreach against the
+    relationship's actual history. Model calls run asynchronously so a slow generation never
+    sits in the request path.
+  </p>
+  <div class="callout">
+    <p>
+      <b>Hosting the model locally is a product decision, not a hobbyist one.</b> Who you
+      know, what you said, and how a conversation actually went is among the most sensitive
+      data a person keeps. It should not have to leave the machine in order to be useful.
+    </p>
+  </div>
+
+  <h3>How it is built</h3>
+  <ul>
+    <li><b>Client</b> — React, TypeScript and Vite.</li>
+    <li><b>Server</b> — Node.js with Drizzle ORM over SQLite; the schema is the centre of the design, covering people, touchpoints, relationship stages and next actions.</li>
+    <li><b>Capture</b> — a browser userscript that pulls profile data and normalises it into that same schema, so imported records are first-class rather than a separate pile.</li>
+  </ul>
+
+  <h3>Status</h3>
+  <p>
+    Under active development, and honest about it: the interesting part right now is the
+    modelling and the local-model integration rather than polish. Application tracking is
+    the next thing planned.
+  </p>
+</template>
+
+<template id="tpl-cymatic">
+  <h2>Aeon Cymatic</h2>
+  <p class="detail__sub">Self-hosted web platform for music-technology tools</p>
+  <div class="detail__meta tags">
+    <span>React</span><span>TypeScript</span><span>Vite</span><span>Ant Design</span><span>Node.js</span><span>SQLite</span>
+  </div>
+  <p class="detail__links">
+    <a class="ext" href="https://github.com/kprsajuuk/Aeon-Cymatic" target="_blank" rel="noopener">Source on GitHub</a>
+    <a class="ext" href="http://172.96.193.131/cymatic/visual" target="_blank" rel="noopener">Live instance</a>
+    <span class="caveat">self-hosted demo</span>
+  </p>
+
+  <h3>What it is</h3>
+  <p class="lead">
+    Aeon Cymatic is the platform the music-technology experiments live in. Rather than three
+    separate downloads or three DAW plugins, it is one browser-based application with the
+    visualizer, the drum beat generator and MIDIbook behind a shared shell, account and
+    navigation.
+  </p>
+  <p>
+    The point of the browser–server architecture here is the same as everywhere else in my
+    work: the tools are only worth building if somebody can reach them without installing
+    anything. A musician trying out a beat generator will not first install a runtime.
+  </p>
+
+  <figure>
+    <img src="img/p1-1/img1.jpg" alt="Aeon Cymatic showing the shared navigation and the spectrum visualizer." loading="lazy">
+    <figcaption>The shared shell, with the visualizer, drum beat and MIDIbook tools behind one navigation bar.</figcaption>
+  </figure>
+
+  <h3>How it is built</h3>
+  <ul>
+    <li><b>Front end</b> — Vite, TypeScript, React and Ant Design.</li>
+    <li><b>Back end</b> — Node.js with SQLite, providing a lightweight database and API for the parts that need to persist, such as MIDIbook's note data.</li>
+    <li><b>Deployment</b> — self-hosted, so it is reachable from any device on the network without an install step.</li>
+  </ul>
+
+  <h3>The tools inside it</h3>
+  <ul>
+    <li><b>Audio Visualizer</b> — real-time spectrum and waveform rendering with configurable modes and an interactive particle field.</li>
+    <li><b>Drum Beat Generator</b> — probabilistic pattern generation with MIDI export.</li>
+    <li><b>MIDIbook</b> — a piano-roll sketchpad with server-side persistence.</li>
+  </ul>
+  <p>Each has its own write-up under <b>Music Technology</b>.</p>
+</template>
+
+<template id="tpl-visualizer">
+  <h2>Audio Visualizer</h2>
+  <p class="detail__sub">Canvas-based audio visualizer with custom playback controls · part of Aeon Cymatic</p>
+  <div class="detail__meta tags">
+    <span>Web Audio API</span><span>Canvas</span><span>React</span><span>TypeScript</span><span>Vite</span><span>Ant Design</span>
+  </div>
+  <p class="detail__links">
+    <a class="ext" href="http://172.96.193.131/cymatic/visual" target="_blank" rel="noopener">Try it</a>
+    <a class="ext" href="https://github.com/kprsajuuk/Aeon-Cymatic" target="_blank" rel="noopener">Source on GitHub</a>
+    <span class="caveat">self-hosted demo</span>
+  </p>
+
+  <h3>What it does</h3>
+  <ul>
+    <li>An audio visualization tool that experiments with real-time visual representations of sound. It parses audio data and renders it on HTML Canvas as a spectrum analyser and a waveform.</li>
+    <li>Several visualization modes, each configurable — plus a prototype for using mouse movement to influence the visualization as it runs.</li>
+    <li>A small custom audio player, so playback and the canvas stay synchronised instead of drifting apart.</li>
+  </ul>
+
+  <h3>Technology &amp; architecture</h3>
+  <p>
+    Built on a browser–server architecture for easy, cross-platform access, and integrated
+    into the Aeon Cymatic platform. Vite + TypeScript + React + Ant Design.
+  </p>
+
+  <h3>Screens</h3>
+  <figure>
+    <img src="img/p1-1/img1.jpg" alt="Audio visualizer with playback controls and a mode selector." loading="lazy">
+    <figcaption>Audio visualizer with playback controls and multiple visualization modes.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/p1-1/img2.jpg" alt="Settings panel that adjusts the visual output." loading="lazy">
+    <figcaption>Adjustable settings that modify the graph's visual output.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/p1-1/img3.jpg" alt="Particle effects reacting to cursor movement." loading="lazy">
+    <figcaption>Interactive particle effects triggered by cursor movement.</figcaption>
+  </figure>
+</template>
+
+<template id="tpl-beat">
+  <h2>Drum Beat Generator</h2>
+  <p class="detail__sub">A configurable drum machine with stochastic beat generation · part of Aeon Cymatic</p>
+  <div class="detail__meta tags">
+    <span>React</span><span>TypeScript</span><span>Vite</span><span>Ant Design</span><span>MIDI export</span>
+  </div>
+  <p class="detail__links">
+    <a class="ext" href="http://172.96.193.131/cymatic/beat" target="_blank" rel="noopener">Try it</a>
+    <a class="ext" href="https://github.com/kprsajuuk/Aeon-Cymatic" target="_blank" rel="noopener">Source on GitHub</a>
+    <span class="caveat">self-hosted demo</span>
+  </p>
+
+  <h3>What it does</h3>
+  <ul>
+    <li>A beat generator built to test random and probabilistic algorithms for creating drum patterns. Users set BPM, style, rhythm pattern and probability parameters.</li>
+    <li>Generated sequences export directly as MIDI files. Pitch values in the export are currently fixed; a later version should let each drum voice specify its own.</li>
+    <li>Different rhythmic styles come out of configurable weights and generation strategies, though finer style customisation is not there yet.</li>
+  </ul>
+
+  <h3>Technology &amp; architecture</h3>
+  <p>
+    Browser–server architecture for easy, cross-platform access, integrated into the Aeon
+    Cymatic platform. Vite + TypeScript + React + Ant Design.
+  </p>
+
+  <h3>Screens</h3>
+  <figure>
+    <img src="img/p1-2/img1.jpg" alt="Drum beat generator parameters." loading="lazy">
+    <figcaption>Drum beat generator with customizable parameters.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/p1-2/img2.jpg" alt="Generated beat pattern ready for download." loading="lazy">
+    <figcaption>Generated beat patterns available for viewing and download.</figcaption>
+  </figure>
+</template>
+
+<template id="tpl-midibook">
+  <h2>MIDIbook</h2>
+  <p class="detail__sub">A digital sketchbook for music · part of Aeon Cymatic</p>
+  <div class="detail__meta tags">
+    <span>React</span><span>TypeScript</span><span>Vite</span><span>Ant Design</span><span>Node.js</span><span>SQLite</span>
+  </div>
+  <p class="detail__links">
+    <a class="ext" href="http://172.96.193.131/cymatic/notebook" target="_blank" rel="noopener">Try it</a>
+    <a class="ext" href="https://github.com/kprsajuuk/Aeon-Cymatic" target="_blank" rel="noopener">Source on GitHub</a>
+    <span class="caveat">self-hosted demo</span>
+  </p>
+
+  <h3>What it does</h3>
+  <ul>
+    <li>A simplified, DAW-like MIDI editing tool — a piano roll for quickly sketching a musical idea before it disappears.</li>
+    <li>Basic preview through audio synthesis. It currently uses a simple synthesiser with three basic voices rather than a sampled piano, to keep server resource use down; the sounds can be refined later.</li>
+    <li>Note data persists in a SQLite database on the back end. Notes are restricted to a fixed grid today; flexible start times and lengths are the planned next step.</li>
+  </ul>
+
+  <h3>Technology &amp; architecture</h3>
+  <p>
+    Browser–server architecture for easy, cross-platform access, integrated into the Aeon
+    Cymatic platform. Vite + TypeScript + React + Ant Design on the front end; Node.js +
+    SQLite behind it for the database and API.
+  </p>
+
+  <h3>Screens</h3>
+  <figure>
+    <img src="img/p1-3/img1.jpg" alt="MIDI notebook listing stored melody sketches." loading="lazy">
+    <figcaption>MIDI notebook system for storing experimental melody data.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/p1-3/img2.jpg" alt="Notebook settings interface." loading="lazy">
+    <figcaption>Custom settings interface for the notebook.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/p1-3/img3.jpg" alt="Piano roll with MIDI clip editing." loading="lazy">
+    <figcaption>Piano roll with basic MIDI clip editing capabilities.</figcaption>
+  </figure>
+</template>
+
+<template id="tpl-markov">
+  <h2>Markov Melody Generator</h2>
+  <p class="detail__sub">A Max for Live device that generates melody from the clips already in your session</p>
+  <div class="detail__meta tags">
+    <span>Max for Live</span><span>JavaScript</span><span>Ableton Live API</span><span>Markov chains</span>
+  </div>
+
+  <h3>Core functionality &amp; purpose</h3>
+  <p class="lead">
+    The plugin implements a Markov chain model as a melody generator: it learns from existing
+    MIDI clips in the current Ableton project, folds them into the model, and then uses the
+    model to predict and generate new melodic suggestions.
+  </p>
+  <p>
+    That makes the suggestions context-aware rather than generic. It can produce supporting
+    melodic material in the style of a clip you already wrote, or serve as a source of core
+    melodic inspiration — a way to test and validate an idea quickly instead of staring at an
+    empty piano roll.
+  </p>
+
+  <h3>Technology &amp; architecture</h3>
+  <p>
+    Implemented as a Max for Live device for Ableton Live 11. The core logic is written in
+    JavaScript, using the Max <code>js</code> object to handle data, manage the Markov model
+    and process MIDI information.
+  </p>
+
+  <h3>Training</h3>
+  <ul>
+    <li>The model's order is configurable, up to 6th order, allowing deeper context in what it learns.</li>
+    <li>The same MIDI clip can be trained multiple times, at different orders, to refine the model.</li>
+    <li>Two training modes: <b>overwrite</b> clears the existing model and retrains from scratch, while <b>merge</b> keeps existing Markov data and accumulates the new training data into the same map.</li>
+  </ul>
+
+  <h3>Generation</h3>
+  <ul>
+    <li>Notes are written into a clip in real time according to the configured model, without deleting the notes already there. The number of new notes is a parameter.</li>
+    <li>A randomness ratio decides how strictly generation follows the learned model — a higher ratio buys creative divergence at the cost of coherence.</li>
+    <li>There is more than one sensible way to search a multi-order model, so the device offers several strategies; a waterfall strategy and a weighted-ratio strategy are implemented.</li>
+    <li>Generation targets the currently selected MIDI clip. Through the Ableton Live API the device reads that clip and appends new notes after its last existing note.</li>
+  </ul>
+
+  <h3>Screens</h3>
+  <figure>
+    <img src="img/p2/img1.jpg" alt="The Max for Live device loaded into a MIDI track." loading="lazy">
+    <figcaption>The Max for Live device loaded into a MIDI track (bottom-left corner).</figcaption>
+  </figure>
+  <figure>
+    <img src="img/p2/img2.jpg" alt="Max interface in presentation mode." loading="lazy">
+    <figcaption>Max interface in presentation mode.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/p2/img3.jpg" alt="A custom JavaScript node holding the model controller code." loading="lazy">
+    <figcaption>A custom JS node containing the model controller code.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/p2/img4.jpg" alt="Training on MIDI clips that already contain notes." loading="lazy">
+    <figcaption>Trained on MIDI clips containing existing musical notes.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/p2/img5.jpg" alt="A predicted note generated into the clip." loading="lazy">
+    <figcaption>Generates a predicted note.</figcaption>
+  </figure>
+</template>
+
+<template id="tpl-astral">
+  <h2>Astral Raiders</h2>
+  <p class="detail__sub">Senior design project · an AR action tower defence for Microsoft HoloLens</p>
+  <div class="detail__meta tags"><span>Unity</span><span>C#</span><span>HoloLens</span><span>Augmented reality</span></div>
+
+  <h3>The game</h3>
+  <p class="lead">
+    Astral Raiders is an action tower defence game for the Microsoft HoloLens — an augmented
+    reality game built to give players an experience a flat screen cannot.
+  </p>
+  <p>
+    A small spacecraft crashes into the player's room, and the ship's captain explains that
+    he is being followed by space pirates. The player collects items from around the room —
+    the real room — and builds defensive structures to hold off the incoming enemies. Killed
+    enemies may drop loot, including new objects to collect.
+  </p>
+  <p>The game is developed with Unity.</p>
+
+  <figure>
+    <img src="img/sd_homepage.png" alt="Astral Raiders home screen." loading="lazy">
+    <figcaption>Home screen.</figcaption>
+  </figure>
+
+  <div class="heavy">
+    <p>Gameplay capture. It is a large animated GIF, so it loads only on request.</p>
+    <button type="button" class="heavy__btn" data-load="img/sd_ingame.gif" data-kind="img" data-alt="Astral Raiders gameplay capture on HoloLens.">
+      ▶ Load gameplay clip
+    </button>
+  </div>
+</template>
+
+<template id="tpl-spooky">
+  <h2>Spooky</h2>
+  <p class="detail__sub">2D platformer, made with Unity · team project</p>
+  <div class="detail__meta tags"><span>Unity</span><span>C#</span><span>2D platformer</span></div>
+
+  <h3>The game</h3>
+  <p class="lead">
+    A 2D platformer built in Unity for Halloween: three levels and a final boss run. Killing
+    an enemy and picking up its head grants the player that enemy's special ability, so the
+    moveset you finish a level with is the one you assembled on the way through it.
+  </p>
+
+  <figure>
+    <img src="img/spook_ingame.png" alt="Spooky gameplay screenshot." loading="lazy">
+    <figcaption>In-game screenshot.</figcaption>
+  </figure>
+
+  <h3>Credits</h3>
+  <p>
+    Collaborators: Jack Phoebus, Xingyu Huang, Odie Bonner, Saloni Shetty, Yihang Zhong,
+    Kexin Han.
+  </p>
+  <p class="detail__links">
+    <a class="ext" href="https://mega.nz/#!WMNAAYrK!4Gjzg8ergELtkSShYygRFSJvtqCwWvCMtlA4Lly-1QA" target="_blank" rel="noopener">Download the build</a>
+  </p>
+</template>
+
+<template id="tpl-m1">
+  <h2>Beyond The Outpost</h2>
+  <p class="detail__sub">Original composition · Ableton Live</p>
+
+  <div class="soundcloud">
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+      title="Beyond The Outpost on SoundCloud"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2155276512&color=%23f0a92e&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+  </div>
+
+  <h3>Background &amp; motivation</h3>
+  <p>
+    The initial idea came from a science-fiction narrative: in the year 2200 humans have
+    achieved faster-than-light travel, and an advanced research vessel sets out to explore
+    unknown star systems. The exploration of the unknown, and the wonder of the night sky,
+    have long been among my favourite creative themes. It is not rooted in any real-world
+    setting, yet it is not about magic or the supernatural either. Planets, stars, gravity,
+    nebulae, black holes, galaxies — to us they look like a still, eternal backdrop. But what
+    appears static and slow-moving harbours immense energy, and the act of exploring it brings
+    infinite possibilities, and a chance to uncover the nature of existence.
+  </p>
+  <p>
+    Scientific exploration is far from dull. Quite the opposite: when we take our first steps
+    under a vast sky, when we set foot on another body entirely, those are humanity's boldest
+    and most determined footsteps. And they are not an end point — they are the launchpad for
+    the next attempt. That courage, and the mix of wonder and unease that comes with facing
+    the unknown, is what I wanted this piece to carry.
+  </p>
+  <blockquote>
+    A research ship carrying the best scientists of humanity has set off — no one knows what
+    they will discover on the other side. Let us wish them luck.
+  </blockquote>
+
+  <h3>Techniques</h3>
+  <ul>
+    <li><b>Platform</b> — Ableton Live as the primary environment for composition and production.</li>
+    <li><b>Sound sources</b> — electronic sounds and bass mainly from Strobe; percussion sampled largely from Kontakt's Damaged Drum Kit; other orchestral elements from Ableton's built-in instruments and expansion packs.</li>
+    <li><b>Processing &amp; effects</b> — EQ, reverb, utility, compression and others, with automation on effect parameters so the sound evolves over time.</li>
+  </ul>
+
+  <h3>Inside the project</h3>
+  <figure>
+    <img src="img/m1/img1.jpg" alt="MIDI arrangement overview." loading="lazy">
+    <figcaption>Overview of selected tracks in the MIDI arrangement.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m1/img2.jpg" alt="EQ Eight and Utility automation lanes." loading="lazy">
+    <figcaption>EQ Eight and Utility automation following the musical rhythm.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m1/img3.jpg" alt="Unconventional EQ frequency automation." loading="lazy">
+    <figcaption>Unconventional EQ frequency automation.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m1/img4.jpg" alt="Note content of the bass MIDI clip." loading="lazy">
+    <figcaption>Note content of the bass MIDI clip.</figcaption>
+  </figure>
+
+  <p class="detail__links">
+    <a class="ext" href="https://soundcloud.com/sajuuk-kpr/beyond-the-outpost" target="_blank" rel="noopener">Listen on SoundCloud</a>
+  </p>
+</template>
+
+<template id="tpl-m2">
+  <h2>Journey to Citadel</h2>
+  <p class="detail__sub">Original composition · Ableton Live</p>
+
+  <div class="soundcloud">
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+      title="Journey to Citadel on SoundCloud"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2155277301&color=%23f0a92e&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+  </div>
+
+  <h3>Background &amp; motivation</h3>
+  <p>
+    Journey to Citadel is an attempt at a somewhat symphonic style. At its core the piece is
+    about a journey — not a leisurely trip, but a purposeful, difficult, abstract voyage. The
+    scenery along the way is not merely beautiful; it stands for the changing experience of
+    travelling. I wrote the piece around joy, transformation and perseverance.
+  </p>
+  <p>
+    "Citadel" may be a concrete place or a symbolic destination. In my mind it is a fortress —
+    not a typical castle, but a spiritual sanctuary, a home world, a refuge; something deeply
+    significant to many people. For some it is a home, for others a bustling city, for others
+    still a symbol of what they are chasing. Everyone has a reason to reach it. The question I
+    was asking was how to express the significance of such a place in music, and my answer is
+    that the journey toward it is what gives the destination meaning. The struggle, the growth,
+    the striving on the way — that is what this piece is trying to convey.
+  </p>
+
+  <h3>Techniques</h3>
+  <ul>
+    <li><b>Platform</b> — Ableton Live as the primary environment for composition and production.</li>
+    <li><b>Sound sources</b> — primarily Ableton's built-in orchestral instruments and expansion packs.</li>
+    <li><b>Processing &amp; effects</b> — EQ, reverb, utility, compression and others, with automation on effect parameters so the sound evolves over time.</li>
+  </ul>
+
+  <h3>Inside the project</h3>
+  <figure>
+    <img src="img/m2/img1.jpg" alt="MIDI arrangement overview." loading="lazy">
+    <figcaption>Overview of main tracks in the MIDI arrangement.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m2/img2.jpg" alt="Note content of the piano MIDI clip." loading="lazy">
+    <figcaption>Note content of the piano MIDI clip.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m2/img3.jpg" alt="Utility automation lane." loading="lazy">
+    <figcaption>Utility automation following the musical rhythm.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m2/img4.jpg" alt="Audio track with risers and abrupt sounds." loading="lazy">
+    <figcaption>Audio track with simple risers and abrupt sounds.</figcaption>
+  </figure>
+
+  <p class="detail__links">
+    <a class="ext" href="https://soundcloud.com/sajuuk-kpr/journey-to-citadel" target="_blank" rel="noopener">Listen on SoundCloud</a>
+  </p>
+</template>
+
+<template id="tpl-m3">
+  <h2>Celestropolis</h2>
+  <p class="detail__sub">Original composition · Ableton Live</p>
+
+  <div class="soundcloud">
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+      title="Celestropolis on SoundCloud"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2220997289&color=%23f0a92e&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+  </div>
+
+  <h3>Background &amp; motivation</h3>
+  <p>
+    Celestropolis grew out of an earlier project I called FIN. I was dissatisfied with parts
+    of FIN — the mixing, and the way the instruments interacted — and I wanted to try better
+    arranging technique. After analysing its shortcomings I started a new musical experiment
+    to validate the ideas I had taken from that analysis, and Celestropolis is the result. Its
+    original purpose was technical experimentation rather than conceptual expression: refining
+    mix control, improving instrument coordination, handling transitions more smoothly.
+  </p>
+  <p>
+    As the work progressed a larger vision emerged — the sky. Because the piece started from
+    technical experimentation, its reading of "sky" is not the serene blue expanse; it is
+    something more complex and more fantastical. Over time a city in the sky materialised in
+    my imagination, an intricately woven blueprint of architecture floating among the clouds.
+  </p>
+  <p>
+    Celestropolis is, to me, the fusion of technique and imagination — a sky city standing in
+    for wonder and the unimaginable, and the core the music was shaped around.
+  </p>
+
+  <h3>Techniques</h3>
+  <ul>
+    <li><b>Platform</b> — Ableton Live as the primary environment for composition and production.</li>
+    <li><b>Sound sources</b> — primarily Ableton's built-in orchestral instruments and expansion packs, with additional sounds from Strobe and Heavyocity.</li>
+    <li><b>Processing &amp; effects</b> — EQ, reverb, utility, compression and others, with automation on effect parameters so the sound evolves over time.</li>
+  </ul>
+
+  <h3>Inside the project</h3>
+  <figure>
+    <img src="img/m3/img1.jpg" alt="MIDI arrangement overview." loading="lazy">
+    <figcaption>Overview of main tracks in the MIDI arrangement.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m3/img2.jpg" alt="Expanded melodic track group." loading="lazy">
+    <figcaption>Expanded view of the melodic track group.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m3/img3.jpg" alt="Note content of the piano MIDI clip." loading="lazy">
+    <figcaption>Note content of the piano MIDI clip.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m3/img4.jpg" alt="EQ Three and Utility automation lanes." loading="lazy">
+    <figcaption>EQ Three and Utility automation following the musical rhythm.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/m3/img5.jpg" alt="Tracks with sidechain compression and saturation." loading="lazy">
+    <figcaption>Tracks processed with a sidechain compressor, with Saturator applied as a modifier.</figcaption>
+  </figure>
+
+  <p class="detail__links">
+    <a class="ext" href="https://soundcloud.com/sajuuk-kpr/celestropolis" target="_blank" rel="noopener">Listen on SoundCloud</a>
+  </p>
+</template>
+
+<script src="js/site.js" defer></script>
 </body>
 </html>
